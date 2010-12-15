@@ -4,8 +4,11 @@
 " Version:    1.4
 " Maintainer:	Dmitriy Y. Zotikov (xio) <xio@ungrund.org>
 "
-" Should work in recent 256 color terminals.  88-color terms like urxvt are
-" NOT supported.
+" NOTE: This is a higher-contrast fork of the original. You can find the main
+"       project here: http://www.vim.org/scripts/script.php?script_id=2140
+"                                   -- Sung Pae <sung@metablu.com>
+"
+" Should work in recent 256 color terminals.
 "
 " Don't forget to install 'ncurses-term' and set TERM to xterm-256color or
 " similar value.
