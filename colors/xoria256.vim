@@ -13,10 +13,7 @@
 " Color numbers (0-255) see:
 " http://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html
 
-
-
-" Bla-bla ----------------------------------------------------------------------
-
+" Initialization {{{
 if &t_Co != 256 && ! has("gui_running")
   echomsg ""
   echomsg "err: please use GUI or a 256-color terminal (so that t_Co=256 could be set)"
@@ -33,19 +30,20 @@ if exists("syntax_on")
 endif
 
 let colors_name = "xoria256"
-
-
-
-" The real part ----------------------------------------------------------------
-
-"" General colors
+"}}}
+" Colours {{{1 
+"" General {{{2
 hi Normal       ctermfg=252 guifg=#d0d0d0 ctermbg=0   guibg=#000000 cterm=none gui=none
-hi CursorColumn                           ctermbg=238 guibg=#444444
 hi Cursor                                 ctermbg=214 guibg=#ffaf00
+hi CursorColumn                           ctermbg=238 guibg=#444444
 hi CursorLine                             ctermbg=233 guibg=#121212 cterm=none gui=none
+hi Error        ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#800000
+hi ErrorMsg     ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#800000
 hi FoldColumn   ctermfg=248 guifg=#a8a8a8 ctermbg=bg  guibg=bg
 hi Folded       ctermfg=fg  guifg=fg      ctermbg=17  guibg=#00005f
 hi IncSearch    ctermfg=0   guifg=#000000 ctermbg=223 guibg=#ffdfaf cterm=none gui=none
+hi LineNr       ctermfg=248 guifg=#a8a8a8
+hi MatchParen   ctermfg=fg  guifg=fg      ctermbg=17  guibg=#00005f cterm=bold gui=bold
 hi NonText      ctermfg=240 guifg=#585858
 hi Pmenu        ctermfg=0   guifg=#000000 ctermbg=246 guibg=#949494
 hi PmenuSbar                              ctermbg=243 guibg=#767676
@@ -58,6 +56,8 @@ hi StatusLine                             ctermbg=239 guibg=#4e4e4e cterm=bold g
 hi StatusLineNC                           ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 hi TabLine      ctermfg=249 guifg=#b2b2b2 ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 hi TabLineFill  ctermfg=249 guifg=#b2b2b2 ctermbg=237 guibg=#3a3a3a cterm=none gui=none
+hi Todo         ctermfg=184 guifg=#dfdf00 ctermbg=bg  guibg=bg      cterm=bold gui=bold
+hi Underlined   ctermfg=39  guifg=#00afff                           cterm=underline gui=underline
 hi VertSplit    ctermfg=237 guifg=#3a3a3a ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 hi Visual       ctermfg=fg  guifg=fg      ctermbg=17  guibg=#00005f
 hi VIsualNOS    ctermfg=24  guifg=#005f87 ctermbg=153 guibg=#afdfff cterm=none gui=none
@@ -66,19 +66,13 @@ hi WildMenu     ctermfg=0   guifg=#000000 ctermbg=150 guibg=#afdf87 cterm=bold g
 "" Syntax highlighting
 hi Comment      ctermfg=244 guifg=#808080
 hi Constant     ctermfg=229 guifg=#ffffaf
-hi Error        ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#800000
-hi ErrorMsg     ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#800000
 hi Identifier   ctermfg=182 guifg=#dfafdf                           cterm=none
 hi Ignore       ctermfg=238 guifg=#444444
-hi LineNr       ctermfg=248 guifg=#a8a8a8
-hi MatchParen   ctermfg=fg  guifg=fg      ctermbg=17  guibg=#00005f cterm=bold gui=bold
 hi Number       ctermfg=180 guifg=#dfaf87
 hi PreProc      ctermfg=150 guifg=#afdf87
 hi Special      ctermfg=174 guifg=#df8787
 hi Statement    ctermfg=110 guifg=#87afdf                           cterm=none gui=none
-hi Todo         ctermfg=184 guifg=#dfdf00 ctermbg=bg  guibg=bg      cterm=bold gui=bold
 hi Type         ctermfg=146 guifg=#afafdf                           cterm=none gui=none
-hi Underlined   ctermfg=39  guifg=#00afff                           cterm=underline gui=underline
 
 "" Special
 """ .diff
