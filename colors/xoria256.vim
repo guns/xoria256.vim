@@ -39,7 +39,7 @@ hi CursorColumn                           ctermbg=238 guibg=#444444
 hi CursorLine                             ctermbg=233 guibg=#121212 cterm=none gui=none
 hi Error        ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#800000
 hi ErrorMsg     ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#800000
-hi FoldColumn   ctermfg=248 guifg=#a8a8a8 ctermbg=bg  guibg=bg
+hi FoldColumn   ctermfg=247 guifg=#9e9e9e ctermbg=bg  guibg=bg
 hi Folded       ctermfg=fg  guifg=fg      ctermbg=17  guibg=#00005f
 hi IncSearch    ctermfg=0   guifg=#000000 ctermbg=223 guibg=#ffdfaf cterm=none gui=none
 hi LineNr       ctermfg=247 guifg=#9e9e9e
