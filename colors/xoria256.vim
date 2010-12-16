@@ -62,7 +62,7 @@ hi StatusLine                             ctermbg=239 guibg=#4e4e4e cterm=bold g
 hi StatusLineNC                           ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 hi TabLine      ctermfg=249 guifg=#b2b2b2 ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 hi TabLineFill  ctermfg=249 guifg=#b2b2b2 ctermbg=237 guibg=#3a3a3a cterm=none gui=none
-hi Todo         ctermfg=0   guifg=#000000 ctermbg=184 guibg=#dfdf00
+hi Todo         ctermfg=184 guifg=#dfdf00 ctermbg=bg  guibg=bg      cterm=bold gui=bold
 hi Title        ctermfg=225 guifg=#ffdfff
 hi Underlined   ctermfg=39  guifg=#00afff                           cterm=underline gui=underline
 hi VertSplit    ctermfg=237 guifg=#3a3a3a ctermbg=237 guibg=#3a3a3a cterm=none gui=none
