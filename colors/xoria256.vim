@@ -43,7 +43,7 @@ hi CursorLine                             ctermbg=233 guibg=#121212 cterm=none g
 hi Error        ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#800000
 hi ErrorMsg     ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#800000
 hi FoldColumn   ctermfg=247 guifg=#9e9e9e ctermbg=bg  guibg=bg
-hi Folded       ctermfg=fg  guifg=fg      ctermbg=17  guibg=#00005f
+hi Folded       ctermfg=255 guifg=#eeeeee ctermbg=60  guibg=#5f5f87
 hi IncSearch    ctermfg=0   guifg=#000000 ctermbg=223 guibg=#ffdfaf cterm=none gui=none
 hi LineNr       ctermfg=247 guifg=#9e9e9e
 hi MatchParen   ctermfg=fg  guifg=fg      ctermbg=17  guibg=#00005f cterm=bold gui=bold
