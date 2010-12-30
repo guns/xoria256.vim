@@ -52,7 +52,7 @@ hi Pmenu        ctermfg=0   guifg=#000000 ctermbg=246 guibg=#949494
 hi PmenuSbar                              ctermbg=243 guibg=#767676
 hi PmenuSel     ctermfg=0   guifg=#000000 ctermbg=243 guibg=#767676
 hi PmenuThumb                             ctermbg=252 guibg=#d0d0d0
-hi Search       ctermfg=0   guifg=#000000 ctermbg=149 guibg=#afdf5f
+hi Search       ctermfg=255 guifg=#eeeeee ctermbg=103 guibg=#8787af
 hi SignColumn   ctermfg=248 guifg=#a8a8a8
 hi SpecialKey   ctermfg=77  guifg=#5fdf5f
 hi SpellBad     ctermfg=160 guifg=fg      ctermbg=bg                cterm=underline               guisp=#df0000
